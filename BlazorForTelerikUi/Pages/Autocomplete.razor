@@ -1,0 +1,30 @@
+﻿@page "/autocomplete"
+<h3>Autocomplete</h3>
+
+<TelerikAutoComplete Data="@Suggestions" Placeholder="Ecrivez votre status" ValueChanged="@((Valeur)=>MyValueChange(Valeur))">
+    <FooterTemplate>
+        <h4>Total Position @Suggestions.Count</h4>
+    </FooterTemplate>
+</TelerikAutoComplete>
+
+@code {
+
+    List<string> svg;
+    List<string> Suggestions = new List<string>
+{
+        "Manager", "Developer", "Solution Architect", "Data Architect", "Technical Writer", "Application Architect","Sales Agent","Data Scientist"
+    };
+
+    protected override Task OnInitializedAsync()
+    {
+        svg = Suggestions;
+        return base.OnInitializedAsync();
+    }
+
+    private void MyValueChange(string valeur)
+    {
+        Suggestions = svg;
+        var rslt = Suggestions.Where(s => s.StartsWith(valeur)).ToList();
+        Suggestions = rslt;
+    }
+}

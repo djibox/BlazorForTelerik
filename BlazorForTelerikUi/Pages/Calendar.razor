@@ -1,0 +1,19 @@
+﻿@page  "/calendar"
+<h3>Telerik Calendar</h3>
+<TelerikCalendar Min="@min" Max="@max" ValueChanged="@AfficherCalendrier" @bind-Date="@actuelle">
+
+</TelerikCalendar>
+<br/>
+@Message
+@code {
+    DateTime min = new DateTime(2000,1,1);
+    DateTime max = new DateTime(2050,12,31);
+    DateTime actuelle { get; set; } = DateTime.Now;
+    string Message;
+
+    private void AfficherCalendrier(DateTime TheDate) 
+    {
+        Message = TheDate.ToString("dd MMM yyyy");
+    }
+
+}

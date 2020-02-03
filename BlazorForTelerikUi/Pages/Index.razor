@@ -1,0 +1,16 @@
+﻿@page "/"
+
+<TelerikButton OnClick="@SayHello" Primary="true">
+    Dites Bonjour !
+</TelerikButton>
+@Hello
+
+@code
+{
+    MarkupString Hello;
+    void SayHello()
+    {
+        string message = string.Format("Hello from <strong>Telerik Blazor</strong> at {0}. <br />", DateTime.Now);
+        Hello = new MarkupString(message);
+    }
+}

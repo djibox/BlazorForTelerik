@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LegerDjiba\\source\\repos\\BlazorForTelerikUi\\BlazorForTelerikUi\\BlazorForTelerikUi.csproj": {}
+    "C:\\exoBlazor\\Telerik\\BlazorForTelerik\\BlazorForTelerikUi\\BlazorForTelerikUi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LegerDjiba\\source\\repos\\BlazorForTelerikUi\\BlazorForTelerikUi\\BlazorForTelerikUi.csproj": {
+    "C:\\exoBlazor\\Telerik\\BlazorForTelerik\\BlazorForTelerikUi\\BlazorForTelerikUi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LegerDjiba\\source\\repos\\BlazorForTelerikUi\\BlazorForTelerikUi\\BlazorForTelerikUi.csproj",
+        "projectUniqueName": "C:\\exoBlazor\\Telerik\\BlazorForTelerik\\BlazorForTelerikUi\\BlazorForTelerikUi.csproj",
         "projectName": "BlazorForTelerikUi",
-        "projectPath": "C:\\Users\\LegerDjiba\\source\\repos\\BlazorForTelerikUi\\BlazorForTelerikUi\\BlazorForTelerikUi.csproj",
+        "projectPath": "C:\\exoBlazor\\Telerik\\BlazorForTelerik\\BlazorForTelerikUi\\BlazorForTelerikUi.csproj",
         "packagesPath": "C:\\Users\\LegerDjiba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LegerDjiba\\source\\repos\\BlazorForTelerikUi\\BlazorForTelerikUi\\obj\\",
+        "outputPath": "C:\\exoBlazor\\Telerik\\BlazorForTelerik\\BlazorForTelerikUi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,24 +1,24 @@
 ﻿@page "/combobox"
-@using BlazorForTelerikUi.Shared
-<h3>Telerik Combobox</h3>
-
+<h3>Combobox</h3>
 
 <div>
-    <TelerikComboBox Data="@Data" @bind-Value="@SelectedValue" Placeholder="Selectionnez un sport" Filterable="true">
+    <TelerikComboBox Data="@Data" @bind-Value="@SelectedValue" Placeholder="Veuillez selectionnez votre sport" Filterable="true">
+
     </TelerikComboBox>
 </div>
 <br/>
-Sport sélectionné : @SelectedValue
 
+Votre sport selectionne est : @SelectedValue
 
-@code
-{
+@code {
 
-    public string[] Data { get; } = new[]
+    public string[] Data { get; } = new string[]
     {
-        "Football", "Basketball", "Handball","Baseball","Laamb"
+        "Football","Laamb","Tennis","Basketball","Handball"
     };
 
     public string SelectedValue { get; set; } = "Laamb";
+
+    //Laamb = lutte senegalaise
 
 }

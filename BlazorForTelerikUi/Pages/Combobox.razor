@@ -1,0 +1,24 @@
+﻿@page "/combobox"
+<h3>Combobox</h3>
+
+<div>
+    <TelerikComboBox Data="@Data" @bind-Value="@SelectedValue" Placeholder="Veuillez selectionnez votre sport" Filterable="true">
+
+    </TelerikComboBox>
+</div>
+<br/>
+
+Votre sport selectionne est : @SelectedValue
+
+@code {
+
+    public string[] Data { get; } = new string[]
+    {
+        "Football","Laamb","Tennis","Basketball","Handball"
+    };
+
+    public string SelectedValue { get; set; } = "Laamb";
+
+    //Laamb = lutte senegalaise
+
+}

@@ -134,3 +134,5 @@ C:\exoBlazor\Telerik\BlazorForTelerik\BlazorForTelerikUi\obj\Debug\netcoreapp3.1
 C:\exoBlazor\Telerik\BlazorForTelerik\BlazorForTelerikUi\obj\Debug\netcoreapp3.1\BlazorForTelerikUi.csproj.CopyComplete
 C:\exoBlazor\Telerik\BlazorForTelerik\BlazorForTelerikUi\obj\Debug\netcoreapp3.1\BlazorForTelerikUi.dll
 C:\exoBlazor\Telerik\BlazorForTelerik\BlazorForTelerikUi\obj\Debug\netcoreapp3.1\BlazorForTelerikUi.pdb
+C:\exoBlazor\Telerik\BlazorForTelerik\BlazorForTelerikUi\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Combobox.razor.g.cs
+C:\exoBlazor\Telerik\BlazorForTelerik\BlazorForTelerikUi\obj\Debug\netcoreapp3.1\Razor\Pages\Combobox.razor.g.cs
